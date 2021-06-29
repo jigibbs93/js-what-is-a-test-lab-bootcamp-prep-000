@@ -1,4 +1,5 @@
-# Running Tests
+
+ # Running Tests
 
 You understand how to read tests, now it's time to run the tests. We've made it
 fairly easy. In the same terminal that you used to write `node tests.js` or
@@ -20,7 +21,7 @@ It will look something like this:
 > js-functions-lab@0.1.0 test /Users/mbenton/Desktop/curriculum-team/js-what-is-a-test-lab
 > mocha -R mocha-multi --reporter-options spec=-,json=.results.json
 
-  what-is-a-test
+  js-what-is-a-test-lab
     Name
       1) returns "Susan"
     Height
@@ -34,7 +35,7 @@ It will look something like this:
 
   1) what-is-a-test
        Name
-         returns "Susan":
+         returns "Susan":*
 
       Error: Expected 'Joe' to equal 'Susan'
       + expected - actual
@@ -73,7 +74,7 @@ npm ERR! Test failed.  See above for more details.
 Let's break this down a bit. If you look at about a third of the way down the
 output, you'll see a summary of how the tests went:
 
-```bash
+```bashfsderfsddsddfefrghwganaeffsdf
   0 passing (293ms)
   3 failing
 ```
